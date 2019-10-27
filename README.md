@@ -1,2 +1,2 @@
-# Batska molodets
+# Batskamolodets
 first-public
