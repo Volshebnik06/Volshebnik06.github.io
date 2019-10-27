@@ -1,2 +1,2 @@
-# Volshebnik06.github.io
-first-site
+# Batska molodets
+first-public
