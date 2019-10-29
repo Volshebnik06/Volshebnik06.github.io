@@ -9,19 +9,19 @@
   color: white;
 }
 
-.navbar-toggler:focus {
-  outline: none;
+.navbar-toggler {
+  transition: all 1.5s;
 }
 .navbar-toggler:hover {
-  border: 2px solid #6c757d;
-  border-radius: 20%;
-  transition: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 1px solid #6c757d;
+  border-radius: 30%;
 }
-
-button.navbar-toggler:active,
-button.navbar-toggler:focus {
-  border: 0px;
-  transition: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+.navbar-toggler:focus {
+  border: 0.5px solid #6c757d;
+  outline: none;
+}
+.navbar-toggler:active {
+  border: 1.5px solid #fff;
 }
 
 .bg-cont-fluid {
